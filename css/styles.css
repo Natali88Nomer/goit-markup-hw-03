@@ -1,0 +1,425 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--sect-text-color);
+  background: var(--sect-text-color);
+}
+
+:root {
+  --logo-btn-cur: #2196f3;
+  --sect-text-color: #ffffff;
+  --logotwo-but-name-job-features: #212121;
+  --header-footer-index: #2f303a;
+  --myteam-btnbg: #f5f4fa;
+  --teltext-btnhov-job-work-about: #757575;
+  --hover-header-button: #188ce8;
+  --not-light-color: rgba(255, 255, 255, 0.6);
+  --imgbord: #eeeeee;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section {
+  padding-bottom: 94px;
+  padding-left: 94px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*---------HEADER index----------*/
+.logo-web {
+  color: var(--logo-btn-cur);
+}
+.container {
+  width: 1200px;
+
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  padding-left: 43px;
+}
+
+.header-shelf {
+  display: flex;
+  align-items: center;
+}
+
+.header-connector {
+  display: flex;
+  margin-left: auto;
+}
+
+.tel-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--teltext-btnhov-job-work-about);
+
+  text-decoration: none;
+  padding-left: 50px;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: initial;
+  color: var(--logotwo-but-name-job-features);
+}
+.look {
+  list-style: none;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 94px;
+}
+
+.current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: initial;
+  cursor: pointer;
+  padding-left: 50px;
+
+  color: var(--logo-btn-cur);
+}
+
+.header-button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: initial;
+  cursor: pointer;
+  padding-left: 50px;
+  align-items: center;
+  color: var(--logotwo-but-name-job-features);
+}
+
+.header-button:hover,
+.header-button:focus,
+.tel-text:hover,
+.tel-text:focus {
+  color: var(--hover-header-button);
+}
+
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-flex {
+  display: flex;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: var(--teltext-btnhov-job-work-about);
+}
+
+.sect-text {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sect-text-color);
+}
+.fon {
+  font-family: "Roboto", sans-serif;
+  color: var(--sect-text-color);
+  background: var(--header-footer-index);
+}
+.title-fon {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  background: var(--logo-btn-cur);
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: transparent;
+  color: var(--sect-text-color);
+  margin: 0 auto;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--hover-header-button);
+}
+
+.section-flex {
+  display: flex;
+}
+.imges-flex {
+  padding-left: 30px;
+}
+
+.myteam-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.myteam {
+  background: var(--myteam-btnbg);
+}
+.myteam-command {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.thesis-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.thesis-prof {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.link {
+  text-decoration: initial;
+}
+.features {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: var(--logotwo-but-name-job-features);
+}
+
+.info-text {
+  margin-bottom: 10px;
+}
+.look {
+  list-style: none;
+}
+
+.block {
+  font-weight: 700;
+}
+.command {
+  font-weight: 300;
+}
+.title-name {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+
+  color: var(--header-footer-index);
+}
+
+.dark {
+  background: var(--header-footer-index);
+}
+
+.images {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.myteam-images {
+  width: 270px;
+  height: 260px;
+}
+
+.work {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--teltext-btnhov-job-work-about);
+}
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--logotwo-but-name-job-features);
+}
+.thesis {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*------- Portfolio-------*/
+.container-portf {
+  width: 1200px;
+
+  margin: 0 auto;
+}
+
+.btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-decoration: initial;
+  cursor: pointer;
+  color: var(--logotwo-but-name-job-features);
+  background: var(--myteam-btnbg);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--sect-text-color);
+  background: var(--logo-btn-cur);
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 50px;
+}
+
+.name-job {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--logotwo-but-name-job-features);
+  text-align: left;
+}
+.job {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--teltext-btnhov-job-work-about);
+  text-align: left;
+}
+.progects {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 30px;
+}
+.images-project {
+  background: var(--sect-text-color);
+  border: 1px solid var(--imgbord);
+}
+.img {
+  width: 370px;
+  height: 294px;
+}
+
+/*------------Footer-----------*/
+
+.map {
+  color: var(--sect-text-color);
+}
+.not-light {
+  color: var(--not-light-color);
+}
+
+.footer-contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-contakt-logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-contakt-map {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.footer-contact-mail {
+  margin-bottom: 9px;
+}
+.footer-contact-tel {
+  margin-bottom: 9px;
+  margin-bottom: 60px;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--sect-text-color);
+  text-decoration: initial;
+  padding-top: 60px;
+  padding-bottom: 161px;
+}
+
+.footer-button {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: initial;
+  cursor: pointer;
+}
+.not-light:focus,
+.not-light:hover,
+.map:focus,
+.map:hover {
+  color: var(--hover-header-button);
+}
