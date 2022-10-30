@@ -166,11 +166,12 @@ img {
 
 .sect-text {
   font-weight: 500;
-  font-size: 44px;
+  font-size: 65px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--sect-text-color);
+  padding-bottom: 30px;
 }
 .fon {
   font-family: "Roboto", sans-serif;
@@ -244,7 +245,18 @@ img {
 }
 
 .info-text {
-  margin-bottom: 10px;
+  font-style: normal;
+
+font-size: 14px;
+line-height:1.7;
+letter-spacing: 0.03em;
+
+}
+.mag-tex{
+padding-right:30px;
+}
+.widht-details{
+  width: 300px;
 }
 .look {
   list-style: none;
@@ -320,14 +332,17 @@ img {
   letter-spacing: 0.03em;
   text-decoration: initial;
   cursor: pointer;
+  border-color: transparent;
   color: var(--logotwo-but-name-job-features);
   background: var(--myteam-btnbg);
+  border-radius: 4px;
 }
 
 .btn:hover,
 .btn:focus {
   color: var(--sect-text-color);
   background: var(--logo-btn-cur);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-list {
   display: flex;
@@ -343,6 +358,8 @@ img {
   letter-spacing: 0.06em;
   color: var(--logotwo-but-name-job-features);
   text-align: left;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 .job {
   font-size: 16px;
@@ -350,6 +367,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--teltext-btnhov-job-work-about);
   text-align: left;
+  padding-left: 24px;
+  padding-top: 4px;
+  padding-bottom: 20px;
+ 
 }
 .progects {
   display: flex;
